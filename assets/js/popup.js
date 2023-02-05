@@ -10,7 +10,7 @@ $(document).ready(function () {
             message: "Está confirmando sua documentacao",
             position: "topCenter"
         })
-    }, 60000);
+    }, 30000);
 
     setInterval(() => {
         var pe = Math.floor(Math.random() * nomes.length);
@@ -20,6 +20,6 @@ $(document).ready(function () {
             message: "Teve seu empréstimo aprovado!",
             position: "topCenter"
            })
-    }, 300000);
+    }, 120000);
     
 })
